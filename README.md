@@ -93,10 +93,14 @@ Supabase Postgres stores users, applications, projects, progress updates, feedba
 
 ## Main API Responsibilities
 
+Implemented surfaces:
+
+- `scoreApplication`: calculates an explainable quality score from project evidence, feedback need, reciprocity, and timing.
+- `applyToQlub`: validates application answers, runs scoring, returns a qualification status, and creates a server-side submission ID.
+
 Planned API/Server Action surfaces:
 
-- `applyToQlub`: validates and stores application answers.
-- `scoreApplication`: calculates quality signal from evidence and reciprocity.
+- Supabase-backed application persistence for `applyToQlub`.
 - `publishProject`: creates a member project.
 - `requestFeedback`: requires enough feedback credits before requesting.
 - `submitFeedback`: records useful feedback and updates feedback credit.

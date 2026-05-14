@@ -26,15 +26,16 @@ Build a focused MVP:
 
 ## Acceptance Criteria
 
-- [ ] Visitor understands that QLUB is for serious builders within the first viewport.
-- [ ] Visitor can complete an application filter.
-- [ ] Application captures evidence of real building, feedback needs, and feedback capacity.
-- [ ] Applicant receives a status: rejected, waitlist, approved observer, approved builder, or trusted member.
+- [x] Visitor understands that QLUB is for serious builders within the first viewport.
+- [x] Visitor can complete an application filter.
+- [x] Application captures evidence of real building, feedback needs, and feedback capacity.
+- [x] Applicant receives a filter status: rejected, waitlist, approved observer, or approved builder.
 - [ ] Approved member can create a project.
 - [ ] Member can publish progress updates.
 - [ ] Member must give feedback before requesting feedback.
 - [ ] Admin can review applications and moderation events.
 - [ ] Paid plan status can be synced from the billing provider.
+- [ ] Trusted member status can be granted after sustained high-signal member activity.
 
 ## Architecture Notes
 
